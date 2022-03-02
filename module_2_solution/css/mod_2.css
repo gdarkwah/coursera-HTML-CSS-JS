@@ -72,8 +72,12 @@ div > div {
         width: 50%;
     }
 
-    section:last-child{
+    /* section:last-child{
         width: 100%
+    } */
+
+    .col-tb-12 {
+        width: 100%;
     }
 }
 
