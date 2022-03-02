@@ -116,8 +116,8 @@ function buildAndShowHomeHTML (categories) {
       //
       // console.log(homeHtml);
       // chosenCategoryShortName = "'" + chosenCategoryShortName +"'"
-      console.log(chosenCategoryShortName)
-      console.log("'"+chosenCategoryShortName.short_name+"'")
+      // console.log(chosenCategoryShortName)
+      // console.log("'"+chosenCategoryShortName.short_name+"'")
       var homeHtmlToInsertIntoMainPage = insertProperty(homeHtml, "randomCategoryShortName", "'"+chosenCategoryShortName.short_name+"'");
 
 
